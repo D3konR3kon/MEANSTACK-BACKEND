@@ -16,6 +16,13 @@ module.exports = mongoose => {
         return object;
     });
 
+    // {
+    //     MOvie id:1
+    //     MOvie-title:
+    //     MOvie-desc: 
+    //     return movie-details
+    // }
+
     const Tutorial  = mongoose.model("tutorial", schema);
     return Tutorial
 };
